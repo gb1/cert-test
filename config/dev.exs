@@ -13,8 +13,8 @@ config :cert_test, CertTestWeb.Endpoint,
   https: [
     port: 4001,
     cipher_suite: :strong,
-    keyfile: "priv/cert/selfsigned_key.pem",
-    certfile: "priv/cert/selfsigned.pem"
+    keyfile: "priv/cert/fabrikam.key",
+    certfile: "priv/cert/fabrikam.crt"
   ],
   check_origin: false,
   code_reloader: true,
